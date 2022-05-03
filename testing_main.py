@@ -6,6 +6,6 @@ print("VCP path = ",VCP_DF_PATH)
 
 livevcp_df = pd.read_csv(VCP_DF_PATH)
 
-print("VCP path = ",VCP_DF_PATH)
+st.write("VCP path = ",VCP_DF_PATH)
 print("livevcp_df = ",livevcp_df)
 st.write(livevcp_df)
