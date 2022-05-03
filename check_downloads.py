@@ -1,0 +1,5 @@
+# this basic script checks whether download works or not without streamlit dependency
+from gdrive_download_utils import download_all_signals, download_file_from_google_drive_sharables
+from streamlit_project_settings import DOWNLOADED_DATA_DIR, SIGNAL_POINTER_FILE_ID, SIGNAL_POINTER_FILE
+download_file_from_google_drive_sharables(SIGNAL_POINTER_FILE_ID, SIGNAL_POINTER_FILE)
+download_all_signals(SIGNAL_POINTER_FILE, DOWNLOADED_DATA_DIR)
