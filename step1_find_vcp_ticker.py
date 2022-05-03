@@ -74,3 +74,7 @@ step 1: find all ticker which have prettry VCP
 '''
 #find all ticker which have prettry VCP
 print(list(vcp_df_pretty['ticker'].values))
+
+# from utils.load_universe_info import get_vcpable_universe
+# vcp_universe_df = get_vcpable_universe()
+# print("vcp_universe_df = ",vcp_universe_df)
