@@ -22,13 +22,13 @@ SINGLE_POWERPOINT_PAGE_PATH = os.path.join(REPORT_TEMPLATE_DIR,"page_template.pp
 
 
 import os
-import personal_settings
+# import personal_settings
 PROJECT_PATH = os.path.realpath(".") #this is equal to python path in pythonpath.bat
 # this is user specific
-DROPBOX_USER_PATH = personal_settings.DROPBOX_USER_PATH #r"C:\Users\tclyu\Dropbox"
-
-DROPBOX_PATH = os.path.join(DROPBOX_USER_PATH, r"thomas_home\active_portfolio_management")
-HARDCOREVCP_HOME = os.path.join(DROPBOX_PATH,"HARDCOREVCP")
-REPORT_OUTPUT_DIR = os.path.join(HARDCOREVCP_HOME,r"digital_products\reports")
+# DROPBOX_USER_PATH = personal_settings.DROPBOX_USER_PATH #r"C:\Users\tclyu\Dropbox"
+#
+# DROPBOX_PATH = os.path.join(DROPBOX_USER_PATH, r"thomas_home\active_portfolio_management")
+# HARDCOREVCP_HOME = os.path.join(DROPBOX_PATH,"HARDCOREVCP")
+# REPORT_OUTPUT_DIR = os.path.join(HARDCOREVCP_HOME,r"digital_products\reports")
 
 #streamlit run C:/Users/tclyu/PycharmProjects/streamlit_deploy_example/dashboard_app.py
